@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	
+}
+
+.title {
+	text-align:center;
+}
+
+.imageNhom {
+	width: 500px;
+	height: 350px;
+}
+
+.TitleTeam{
+	width:auto;
+	padding:15px 20px;
+	background-color:#0F9;
+	color:#F00;
+	font-size:30px;
+}
+.row-padding{
+	padding: 10px;
+}
+
+.colomn{
+	float:left;
+}
+
+.colomn.left{
+	display: flex;
+	flex-direction: column;
+	width:50%;
+	height:500px;
+	border:2px solid #333;
+	background-color:#9F6;
+}
+.TeamInformation{
+	color:#00C;
+	font-size:20px;
+	
+}
+
+.colomn.right{
+	width:45%;
+	height:500px;
+	margin-left:5px;
+	padding-left:10px;
+	border:2px solid #333;
+	color:#00F;
+	background-color:#9F6;
+	font-size:20px;
+}
+#DS{
+	text-align:center;
+	color:#900;
+	font-size:25px;
+}
+footer{
+	clear:left;
+}
+footer p{
+    
+	text-align:center;
+	font-size:25px;
+	color:#FC0;
+}
+
+h1:hover{
+	background-color:#0F0;
+}
+h2:hover{
+	background-color:#0F0;
+}
+h3:hover{
+	background-color:#0F0;
+}
+
+.image{
+	width: 380px;
+	height: 470px;
+}
+
+a {
+	font-size: 24px;
+}
+
+.KhungVien{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width:500px;
+	height:auto;
+	border:1px solid #333;
+	margin:5px;
+	background-color:#CF9;
+}
+.TieuDe{
+	text-align:center;
+	width:500px;
+	background-color:#F09;
+	height:50px;
+	font-size:24px;
+	color:#006;
+}
+.ThongTin{
+	font-size:16px;
+	color:#006;
+}
+footer p{
+	text-align:center;
+	color:#C30;
+}
+#Link{
+	color:red;
+}
+#Link:hover{
+	color:red;
+	background-color: rgb(0, 255, 221);
+}
+
+	
